@@ -1,0 +1,128 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+body{
+    background-color: rgba(50, 50, 50, 1);
+}
+
+
+h1{
+    text-align: center;
+    color: #ffff;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 128px;
+    line-height: 136px;
+    }
+
+.h21{
+    position: absolute;
+    left: 52px;
+    top: 320px;
+    font-size: 100px;
+    color: #fff;
+    
+}
+.h22{
+    position: absolute;
+    left: 52px;
+    top: 650px;
+    font-size: 67px;
+    color:rgb(211, 181, 11) ;
+    padding-bottom: 50px;
+    
+}
+
+.h23{
+    position: absolute;
+    left: 950px;
+    top: 330px;
+    font-size: 30px;
+    color: #fff;
+}
+
+.h24{
+    position: absolute;
+    left: 1000px;
+    top: 360px;
+    font-size: 30px;
+    color: rgb(211, 181, 11) ;
+}
+
+.h25{
+    position: absolute;
+    left: 870px;
+    top: 460px;
+    font-size: 50px;
+    color: #fff;
+}
+.h26{
+    position: absolute;
+    left: 870px;
+    top: 520px;
+    font-size: 50px;
+    color: rgb(211, 181, 11);
+}
+h4{
+    text-align: center;
+    font-size: large;
+    color: gainsboro;
+    margin-bottom: 20px;
+}
+
+nav{
+    background-color:#17181C;
+    text-align: center;
+    border:1px solid #fff;
+    height: 60px;
+    }
+
+nav ul{
+    list-style: none;
+    display: inline-block;
+    padding:18px;
+}
+
+nav ul li{
+    float: left;
+    
+}
+
+nav ul li a {
+    color: white;
+    font-weight: bold;
+    text-decoration: none;
+    font-size: 20px;
+    padding: 18px;
+}
+
+nav ul li a:hover{
+    background-color:rgb(211, 181, 11);
+}
+
+.adelante{
+    position:absolute;
+    z-index: 1;
+  }
+  
+  .atras{
+    position:absolute;
+    z-index: -1;
+    margin-left: 100px;
+  }
+
+  .cervezaImagen{
+      text-align: right;
+      margin-top: 200px;
+  }
+
+  .estrellas{
+      text-align: left;
+      position: absolute;
+      left: 23px;
+      top: 60px;
+  }
